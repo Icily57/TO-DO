@@ -1,0 +1,34 @@
+.Container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .Header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    .img{
+      width: 100%;
+      position: cover;
+  }
+  .h1{
+    background-image: './images/bg-desktop-dark.jpg';
+    
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .Theme{
+    display: flex;
+    justify-content: end;
+  
+    .btn{
+      border: 1px solid  black;
+      border-radius: 20px;
+      background-color: purple;
+      color: white;
+    }
+  }
+  }
+}
